@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Koleksi Buku</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Koleksi Buku</h1>
+        <form id="book-form">
+            <input type="text" id="book-title" placeholder="Judul Buku" required>
+            <input type="text" id="book-author" placeholder="Pengarang" required>
+            <input type="text" id="book-terbit" placeholder="terbit" required>
+            <button type="submit">Tambah Buku</button>
+        </form>
+        <h2>Daftar Buku</h2>
+        <ul id="book-list"></ul>
+            <li>Harry Potter oleh J.K Rowling <button onclick="removeBook(this)">Hapus</button></li>
+            <li>The Hobbit oleh J.R.R Tolkien <button onclick="removeBook(this)">Hapus</button></li>
+            <li>1984 oleh George Orwell <button onclick="removeBook(this)">Hapus</button></li>
+            <li>Pride and Prejudice oleh Jane Austen <button onclick="removeBook(this)">Hapus</button></li>
+            <li>The Great Gatsby oleh F. Scott Fitzgerald <button onclick="removeBook(this)">Hapus</button></li>
+            <li> lawson odeng oleh carnapsp <button onclick="removeBook(this)">Hapus</button></li>
+        </ul>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
